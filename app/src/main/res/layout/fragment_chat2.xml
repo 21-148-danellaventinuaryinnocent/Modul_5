@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Chat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chat1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="Buk Ninik"
+                    android:textStyle="bold"
+                    android:padding="16dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:padding="16dp"
+                    android:text="Bagaimana kabranya ????" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/check" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:textColor="@color/black"
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chat2" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="Rino"
+                    android:textStyle="bold"
+                    android:padding="16dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:padding="16dp"
+                    android:text="Hari ini ada kuliah kah ????" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/check" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chat1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="Amel"
+                    android:textStyle="bold"
+                    android:padding="16dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:padding="16dp"
+                    android:text="Hari ini 17.30" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/check" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chat2" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="Mutia"
+                    android:textStyle="bold"
+                    android:padding="16dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:padding="16dp"
+                    android:text="Jangan lupa hari ini ada kelas Pember" />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:src="@drawable/check" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
